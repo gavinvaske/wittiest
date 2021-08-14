@@ -2,8 +2,8 @@
 
 ## How to Run this Application
 
-  1. Clone this repository by running `git clone https://github.com/gavinvaske/nodejs_starter_template.git` in a terminal
-  2. Open a terminal in the same directory of the cloned repo (i.e ***/nodejs_starter_template**) and run `npm install`
+  1. Clone this repository by running `git clone https://github.com/gavinvaske/wittiest.git` in a terminal
+  2. Open a terminal in the same directory of the cloned repo (i.e ***/wittiest**) and run `npm install`
   3. Run the application via `npm start`
   4. Open a browser and navigate to `localhost:3000` and thats it, the rest is up to you to create.
 

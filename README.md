@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/gavinvaske/wittiest.svg?branch=main)](https://travis-ci.com/gavinvaske/wittiest)
+
 # Wittiest
 
 ## How to Run this Application

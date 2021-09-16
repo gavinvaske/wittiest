@@ -26,9 +26,17 @@ This project comes preinstalled with the [Jest](https://github.com/facebook/jest
 
 You can read more about Jest on their website [here](https://jestjs.io/).
 
-A single test is included in this project and can be found in `test/index.spec.js`. You should continue to add tests as you write code and all tests should be located within files in the `/test` folder
+### Unit Testing
+Unit tests are found in the `/unitTests` folder in the root of this directory.
 
-To execute all the tests in the **/test** folder run `npm run test`
+To execute all the unit tests in this folder run the command `npm run test`
+
+### Acceptance Testing
+Unit tests are found in the `/acceptanceTests` folder in the root of this directory.
+
+To run the acceptance tests, you will first need to start the application, and then in a new terminal, trigger the tests to run. Follow the steps below to do this.
+  1. Open terminal #1 and run `npm run start`
+  2. Open terminal #2 and run `npm run acceptance`
 
 ## Get Started with Linting
 Many syntax errors/code mistakes can hide in Javascript. A linter will analyze your code in real time and report any problems it finds.

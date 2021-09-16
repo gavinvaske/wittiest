@@ -1,0 +1,3 @@
+{
+    "testRegex": "((\\.|/*.)(acceptance))\\.js?$"
+}

@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node application/index.js",
     "test": "jest",
+    "acceptance": "jest --config ./acceptanceTests/jest.config.json",
     "lint": "./node_modules/.bin/eslint .",
     "fix-lint": "./node_modules/.bin/eslint . --fix",
     "verify": "npm run test && npm run lint"
@@ -17,6 +18,7 @@
     "jest": "27.0.4"
   },
   "dependencies": {
+    "axios": "0.21.4",
     "dotenv": "10.0.0",
     "express": "4.17.1"
   }

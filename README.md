@@ -26,17 +26,19 @@ This project comes preinstalled with the [Jest](https://github.com/facebook/jest
 
 You can read more about Jest on their website [here](https://jestjs.io/).
 
-### Unit Testing
+**BEFORE** running either [Unit Tests](#how-to-run-unit-tests) or [Acceptance Tests](#how-to-run-acceptance-tests) in this repository, you will first need to run `npm install`
+
+### How to Run Unit Tests
 Unit tests are found in the `/unitTests` folder in the root of this directory.
 
 To execute all the unit tests in this folder run the command `npm run test`
 
-### Acceptance Testing
+### How to Run Acceptance Tests
 Unit tests are found in the `/acceptanceTests` folder in the root of this directory.
 
 To run the acceptance tests, you will first need to start the application, and then in a new terminal, trigger the tests to run. Follow the steps below to do this.
-  1. Open terminal #1 and run `npm run start`
-  2. Open terminal #2 and run `npm run acceptance`
+  1. Open **terminal #1** and run `npm run start`
+  2. Open **terminal #2** and run `npm run acceptance`
 
 ## Get Started with Linting
 Many syntax errors/code mistakes can hide in Javascript. A linter will analyze your code in real time and report any problems it finds.
